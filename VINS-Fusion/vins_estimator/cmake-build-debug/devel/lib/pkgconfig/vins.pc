@@ -1,0 +1,8 @@
+prefix=/home/caiqidong/安装包/ROS库/VINS-Fusion/vins_estimator/cmake-build-debug/devel
+
+Name: vins
+Description: Description of vins
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

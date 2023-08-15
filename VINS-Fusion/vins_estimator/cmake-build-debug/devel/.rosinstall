@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/caiqidong/安装包/ROS库/VINS-Fusion/vins_estimator/cmake-build-debug/devel/setup.sh

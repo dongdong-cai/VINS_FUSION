@@ -1,0 +1,743 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "devel/lib/vins/kitti_gps_test"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"set_property",
+			"add_definitions",
+			"configure_shared_library_build_settings",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/usr/local/lib/cmake/Ceres/CeresTargets.cmake",
+			"/usr/local/lib/cmake/Ceres/CeresConfig.cmake",
+			"/opt/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake",
+			"/opt/clion-2023.1.1/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindGTest.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/all.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake",
+			"/opt/ros/noetic/share/rosconsole/cmake/rosconsole-extras.cmake",
+			"/opt/ros/noetic/share/rosconsole/cmake/rosconsoleConfig.cmake",
+			"/opt/ros/noetic/share/roscpp/cmake/roscppConfig.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/tools/libraries.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 268,
+				"parent" : 5
+			},
+			{
+				"file" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 7,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 20,
+				"parent" : 10
+			},
+			{
+				"file" : 6,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 164,
+				"parent" : 12
+			},
+			{
+				"file" : 5,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 340,
+				"parent" : 14
+			},
+			{
+				"file" : 4,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 283,
+				"parent" : 16
+			},
+			{
+				"file" : 3,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 240,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 10
+			},
+			{
+				"file" : 10,
+				"parent" : 20
+			},
+			{
+				"command" : 4,
+				"file" : 10,
+				"line" : 197,
+				"parent" : 21
+			},
+			{
+				"file" : 9,
+				"parent" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 222,
+				"parent" : 23
+			},
+			{
+				"file" : 8,
+				"parent" : 24
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 12,
+				"parent" : 25
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 174,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 18,
+				"parent" : 27
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 8,
+				"parent" : 25
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++14 -O3 -Wall -g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CERES_EXPORT_INTERNAL_SYMBOLS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GFLAGS_IS_A_DLL=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GLOG_CUSTOM_PREFIX_SUPPORT"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "ROSCONSOLE_BACKEND_LOG4CXX"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "ROS_BUILD_SHARED_LIBS=1"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "ROS_PACKAGE_NAME=\"vins\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 30,
+					"path" : "/home/caiqidong/XTDrone/ros_ws/src/VINS-Fusion/camera_models/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/opt/ros/noetic/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/usr/local/opencv3.4.12/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/usr/local/opencv3.4.12/include/opencv"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/usr/local/include/eigen3"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/build"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/include/opencv"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/core/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/flann/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/ml/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/photo/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/video/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/viz/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/dnn/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/features2d/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/shape/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/videoio/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/highgui/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/objdetect/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/stitching/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/superres/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/ts/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/caiqidong/opencv/opencv-3.4.12/modules/videostab/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "vins_lib::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "kitti_gps_test::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++14 -O3 -Wall -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/caiqidong/\u5b89\u88c5\u5305/ROS\u5e93/VINS-Fusion/vins_estimator/cmake-build-debug/devel/lib:/usr/local/lib:/opt/ros/noetic/lib:/home/caiqidong/opencv/opencv-3.4.12/build/lib:/usr/local/opencv3.4.12/lib:/home/caiqidong/XTDrone/ros_ws/devel/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "devel/lib/libvins_lib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libtf.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libtf2_ros.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libactionlib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libtf2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libcv_bridge.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/opencv3.4.12/lib/libopencv_core.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/opencv3.4.12/lib/libopencv_imgproc.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/opencv3.4.12/lib/libopencv_imgcodecs.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/XTDrone/ros_ws/devel/lib/libcamera_models.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libimage_transport.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libmessage_filters.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libclass_loader.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lPocoFoundation",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libroscpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/librosconsole.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/librosconsole_log4cxx.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/librosconsole_backend_interface.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog4cxx",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libxmlrpcpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libroslib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/librospack.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpython3.8",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ltinyxml2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libroscpp_serialization.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/librostime.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/ros/noetic/lib/libcpp_common.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_dnn.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_highgui.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_ml.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_objdetect.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_shape.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_stitching.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_superres.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_videostab.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_calib3d.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_features2d.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_flann.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_photo.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_video.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_videoio.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_imgcodecs.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_imgproc.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_viz.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/caiqidong/opencv/opencv-3.4.12/build/lib/libopencv_core.so.3.4.12",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libceres.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/usr/local/lib/libglog.so.0.7.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/usr/local/lib/libgflags.so.2.2.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llapack",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lblas",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "kitti_gps_test",
+	"nameOnDisk" : "kitti_gps_test",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/KITTIGPSTest.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

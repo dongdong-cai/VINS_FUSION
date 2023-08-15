@@ -1,0 +1,142 @@
+/opt/clion-2023.1.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion-2023.1.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/caiqidong/安装包/ROS库/VINS-Fusion/vins_estimator -B /home/caiqidong/安装包/ROS库/VINS-Fusion/vins_estimator/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/caiqidong/安装包/ROS库/VINS-Fusion/vins_estimator/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/caiqidong/XTDrone/ros_ws/devel;/home/caiqidong/XTDrone/catkin_ws/devel;/opt/ros/noetic
+-- This workspace overlays: /home/caiqidong/XTDrone/ros_ws/devel;/home/caiqidong/XTDrone/catkin_ws/devel;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /home/caiqidong/.local/lib/python3.8/site-packages/em.py  
+-- Using empy: /home/caiqidong/.local/lib/python3.8/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/caiqidong/安装包/ROS库/VINS-Fusion/vins_estimator/cmake-build-debug/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+CMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenCV: /home/caiqidong/opencv/opencv-3.4.12/build (found version "3.4.12") 
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/local/share/eigen3/cmake
+-- Found required Ceres dependency: glog
+-- Found Ceres version: 2.0.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SchurSpecializations, Multithreading]
+-- Configuring done
+CMake Warning at CMakeLists.txt:39 (add_library):
+  Cannot generate a safe runtime search path for target vins_lib because
+  there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/noetic/lib]
+      dir 1 must precede it due to runtime library [libcv_bridge.so]
+    dir 1 is [/usr/local/lib]
+    dir 2 is [/usr/local/opencv3.4.12/lib]
+      dir 4 must precede it due to runtime library [libopencv_dnn.so.3.4]
+    dir 3 is [/home/caiqidong/XTDrone/ros_ws/devel/lib]
+    dir 4 is [/home/caiqidong/opencv/opencv-3.4.12/build/lib]
+      dir 2 must precede it due to runtime library [libopencv_core.so.3.4]
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:59 (add_executable):
+  Cannot generate a safe runtime search path for target vins_node because
+  there is a cycle in the constraint graph:
+
+    dir 0 is [/home/caiqidong/安装包/ROS库/VINS-Fusion/vins_estimator/cmake-build-debug/devel/lib]
+    dir 1 is [/opt/ros/noetic/lib]
+      dir 2 must precede it due to runtime library [libcv_bridge.so]
+    dir 2 is [/usr/local/lib]
+    dir 3 is [/usr/local/opencv3.4.12/lib]
+      dir 5 must precede it due to runtime library [libopencv_dnn.so.3.4]
+    dir 4 is [/home/caiqidong/XTDrone/ros_ws/devel/lib]
+      dir 0 must precede it due to runtime library [libvins_lib.so]
+    dir 5 is [/home/caiqidong/opencv/opencv-3.4.12/build/lib]
+      dir 3 must precede it due to runtime library [libopencv_core.so.3.4]
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:62 (add_executable):
+  Cannot generate a safe runtime search path for target kitti_odom_test
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/home/caiqidong/安装包/ROS库/VINS-Fusion/vins_estimator/cmake-build-debug/devel/lib]
+    dir 1 is [/opt/ros/noetic/lib]
+      dir 2 must precede it due to runtime library [libcv_bridge.so]
+    dir 2 is [/usr/local/lib]
+    dir 3 is [/usr/local/opencv3.4.12/lib]
+      dir 5 must precede it due to runtime library [libopencv_dnn.so.3.4]
+    dir 4 is [/home/caiqidong/XTDrone/ros_ws/devel/lib]
+      dir 0 must precede it due to runtime library [libvins_lib.so]
+    dir 5 is [/home/caiqidong/opencv/opencv-3.4.12/build/lib]
+      dir 3 must precede it due to runtime library [libopencv_core.so.3.4]
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:65 (add_executable):
+  Cannot generate a safe runtime search path for target kitti_gps_test
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/home/caiqidong/安装包/ROS库/VINS-Fusion/vins_estimator/cmake-build-debug/devel/lib]
+    dir 1 is [/opt/ros/noetic/lib]
+      dir 2 must precede it due to runtime library [libcv_bridge.so]
+    dir 2 is [/usr/local/lib]
+    dir 3 is [/usr/local/opencv3.4.12/lib]
+      dir 5 must precede it due to runtime library [libopencv_dnn.so.3.4]
+    dir 4 is [/home/caiqidong/XTDrone/ros_ws/devel/lib]
+      dir 0 must precede it due to runtime library [libvins_lib.so]
+    dir 5 is [/home/caiqidong/opencv/opencv-3.4.12/build/lib]
+      dir 3 must precede it due to runtime library [libopencv_core.so.3.4]
+
+  Some of these libraries may not be found correctly.
+
+
+-- Generating done
+-- Build files have been written to: /home/caiqidong/安装包/ROS库/VINS-Fusion/vins_estimator/cmake-build-debug
