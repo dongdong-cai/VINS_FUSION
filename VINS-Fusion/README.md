@@ -1,4 +1,5 @@
 # VINS-Fusion
+## vinsfusion的中文注释
 ## An optimization-based multi-sensor state estimator
 
 <img src="support_files/image/vins_logo.png" width = 55% height = 55% div align=left />
